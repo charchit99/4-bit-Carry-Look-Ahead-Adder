@@ -1,0 +1,222 @@
+$date
+	Thu Apr 29 13:06:19 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_bench $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % clk $end
+$scope module runadd $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 ( c1 $end
+$var wire 1 ) c2 $end
+$var wire 1 * c3 $end
+$var wire 1 + c4 $end
+$var wire 1 % clk $end
+$var wire 1 , g0 $end
+$var wire 1 - g1 $end
+$var wire 1 . g2 $end
+$var wire 1 / g3 $end
+$var wire 1 0 p0 $end
+$var wire 1 1 p1 $end
+$var wire 1 2 p2 $end
+$var wire 1 3 p3 $end
+$var wire 1 4 s0 $end
+$var wire 1 5 s1 $end
+$var wire 1 6 s2 $end
+$var wire 1 7 s3 $end
+$var wire 4 8 s [3:0] $end
+$var wire 1 " cout $end
+$var wire 1 9 b3 $end
+$var wire 1 : b2 $end
+$var wire 1 ; b1 $end
+$var wire 1 < b0 $end
+$var wire 1 = a3 $end
+$var wire 1 > a2 $end
+$var wire 1 ? a1 $end
+$var wire 1 @ a0 $end
+$scope module da0 $end
+$var wire 1 A d $end
+$var wire 1 % enable $end
+$var wire 1 @ res $end
+$var reg 1 @ resreg $end
+$upscope $end
+$scope module da1 $end
+$var wire 1 B d $end
+$var wire 1 % enable $end
+$var wire 1 ? res $end
+$var reg 1 ? resreg $end
+$upscope $end
+$scope module da2 $end
+$var wire 1 C d $end
+$var wire 1 % enable $end
+$var wire 1 > res $end
+$var reg 1 > resreg $end
+$upscope $end
+$scope module da3 $end
+$var wire 1 D d $end
+$var wire 1 % enable $end
+$var wire 1 = res $end
+$var reg 1 = resreg $end
+$upscope $end
+$scope module db0 $end
+$var wire 1 E d $end
+$var wire 1 % enable $end
+$var wire 1 < res $end
+$var reg 1 < resreg $end
+$upscope $end
+$scope module db1 $end
+$var wire 1 F d $end
+$var wire 1 % enable $end
+$var wire 1 ; res $end
+$var reg 1 ; resreg $end
+$upscope $end
+$scope module db2 $end
+$var wire 1 G d $end
+$var wire 1 % enable $end
+$var wire 1 : res $end
+$var reg 1 : resreg $end
+$upscope $end
+$scope module db3 $end
+$var wire 1 H d $end
+$var wire 1 % enable $end
+$var wire 1 9 res $end
+$var reg 1 9 resreg $end
+$upscope $end
+$scope module dcout $end
+$var wire 1 + d $end
+$var wire 1 % enable $end
+$var wire 1 " res $end
+$var reg 1 I resreg $end
+$upscope $end
+$scope module ds0 $end
+$var wire 1 4 d $end
+$var wire 1 % enable $end
+$var wire 1 J res $end
+$var reg 1 J resreg $end
+$upscope $end
+$scope module ds1 $end
+$var wire 1 5 d $end
+$var wire 1 % enable $end
+$var wire 1 K res $end
+$var reg 1 K resreg $end
+$upscope $end
+$scope module ds2 $end
+$var wire 1 6 d $end
+$var wire 1 % enable $end
+$var wire 1 L res $end
+$var reg 1 L resreg $end
+$upscope $end
+$scope module ds3 $end
+$var wire 1 7 d $end
+$var wire 1 % enable $end
+$var wire 1 M res $end
+$var reg 1 M resreg $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xM
+xL
+xK
+xJ
+xI
+0H
+1G
+1F
+1E
+0D
+1C
+0B
+1A
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+bx 8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+b111 '
+b101 &
+0%
+b111 $
+b101 #
+x"
+bx !
+$end
+#1000
+16
+17
+1)
+05
+1*
+0+
+1(
+1,
+04
+00
+0-
+11
+1.
+02
+0/
+03
+1@
+0?
+1>
+0=
+1<
+1;
+1:
+09
+1%
+#2000
+0%
+#3000
+0"
+0I
+1M
+1L
+0K
+b1100 !
+b1100 8
+0J
+1%
+#4000
+0%
+#5000
+1%
+#6000
+0%
+#7000
+1%
+#8000
+0%

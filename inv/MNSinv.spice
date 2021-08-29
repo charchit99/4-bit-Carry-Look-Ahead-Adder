@@ -1,0 +1,21 @@
+* SPICE3 file created from MNSinv.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 output input vdd w_n19_n3# pfet w=8 l=2
++  ad=40 pd=26 as=40 ps=26
+M1001 output input gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=20 ps=18
+C0 output gnd 0.08fF
+C1 w_n19_n3# input 0.09fF
+C2 vdd output 0.12fF
+C3 w_n19_n3# output 0.04fF
+C4 input output 0.05fF
+C5 input gnd 0.05fF
+C6 w_n19_n3# vdd 0.06fF
+C7 input vdd 0.03fF
+C8 gnd Gnd 0.09fF
+C9 output Gnd 0.04fF
+C10 vdd Gnd 0.04fF
+C11 input Gnd 0.10fF
+C12 w_n19_n3# Gnd 0.48fF
